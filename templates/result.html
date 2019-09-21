@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title></title>
+
+	<!--link rel="stylesheet" type="text/css" href="styles.css"--> 
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+
+<body>
+
+
+
+	<header>
+
+		<div class="container">
+
+		<div id="brandname">
+
+		</div>
+
+		<h2>Document Classifier</h2>
+
+		
+
+	</div>
+
+	</header>
+
+	<br><br><br><br><br>
+
+	<div class="ml-container">
+
+		<p>
+
+			<h3><b>Results for the pasted Document</b></h3>
+
+		</p>
+
+	</div>
+
+
+
+	<br><br><br>
+
+
+
+	<div class="results">
+
+	
+
+	{% if prediction == 1%}
+
+	<h2>RETURNED CHECK DOCUMENT</h2>
+
+	{% elif prediction == 0%}
+
+	<h2>DELETION OF INTEREST DOCUMENT</h2>
+
+	{% elif prediction == 2%}
+
+	<h2>BILL DOCUMENT</h2>
+
+	{% elif prediction == 3%}
+
+	<h2>POLICY CHANGE DOCUMENT</h2>
+
+	{% elif prediction == 4%}
+
+	<h2>CANCELLATION NOTICE DOCUMENT</h2>
+
+	{% elif prediction == 5%}
+
+	<h2>DECLARATION DOCUMENT</h2>
+
+	{% elif prediction == 6%}
+
+	<h2>CHANGE ENDORSEMENT DOCUMENT</h2>
+
+	{% elif prediction == 7%}
+
+	<h2>NON RENEWAL NOTICE DOCUMENT</h2>
+
+	{% elif prediction == 8%}
+
+	<h2>BINDER DOCUMENT</h2>
+
+	{% elif prediction == 9%}
+
+	<h2>REINSTATEMENT NOTICE DOCUMENT</h2>
+
+	{% elif prediction == 10%}
+
+	<h2>EXPIRATION NOTICE DOCUMENT</h2>
+
+	{% elif prediction == 11%}
+
+	<h2>INTENT TO CANCEL NOTICE DOCUMENT</h2>
+
+	{% elif prediction == 12%}
+
+	<h2>APPLICATION DOCUMENT</h2>
+
+	{% elif prediction == 13%}
+
+	<h2>BILL BINDER DOCUMENT</h2>
+
+	{% endif %}
+
+
+
+	</div>
+
+
+
+	<br><br><br>
+
+
+
+</body>
+
+</html>
+
