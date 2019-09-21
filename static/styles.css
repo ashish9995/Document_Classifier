@@ -1,0 +1,163 @@
+* {
+
+	margin: 0;
+
+	padding: 0;
+
+	text-align: center;
+
+}
+
+
+
+.navbar-style {
+
+	box-shadow: 0 2px 5px #efefef;
+
+}
+
+
+
+.header {
+
+	height: 100vh;
+
+}
+
+
+
+body {
+
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+
+	padding: 0px;
+
+	background-color:#f4f3f3;
+
+	background-image: url("img2.jpg");
+
+	background-size: cover;
+
+}
+
+
+
+.container {
+
+	width: 100%;
+
+	margin: auto;
+
+	overflow: hidden;
+
+	background-color: black;
+
+	height: 150px;
+
+}
+
+
+
+.ml-container h3 {
+
+	color: white;
+
+	font-size: 25px;
+
+}
+
+
+
+#brandname {
+
+	float: left;
+
+	font-size: 30px;
+
+	color: #fff;
+
+	margin: 10px;
+
+}
+
+
+
+header h2 {
+
+	text-align: center;
+
+	color: #fff;
+
+	margin-top: 50px;
+
+	font-size: 40px;
+
+}
+
+
+
+textarea {
+
+	width: 350px;
+
+	height: 150px;
+
+}
+
+
+
+.btn-info {
+
+	background-color: rgb(185, 107, 121);/* Blue */
+
+	height: 40px;
+
+	width: 100px;
+
+	border-radius: 5px;
+
+	border-style: none;
+
+	color: white;
+
+	font-size: 15px;
+
+} 
+
+
+
+.btn-info:hover {
+
+	background: rgb(185, 42, 68);
+
+	cursor: pointer;
+
+}
+
+
+
+.results {
+
+	margin: 0 auto;
+
+    background: rgb(100, 100, 100);
+
+    padding: 30px; 
+
+	width: 50%;
+
+	color: snow;
+
+	border-radius: 10px;
+
+}
+
+
+
+.bg-1 {
+
+    background-color: #1abc9c; /* Green */
+
+    color: #ffffff;
+
+}
