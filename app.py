@@ -34,5 +34,4 @@ def predict():
     return render_template('result.html',prediction = my_prediction)
 
 if __name__ == '__main__':
-    pt = int(os.environ.get("PORT", 5000))
-    app.run(host ='0.0.0.0',port=pt,debug=True,use_reloader=False) #host='127.0.0.1' port=pt
+    app.run(debug=True,use_reloader=False) #host='127.0.0.1' port=pt
